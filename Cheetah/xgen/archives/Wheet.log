@@ -1,0 +1,149 @@
+pymel.core : INFO : Updating pymel with pre-loaded plugins: renderSetup
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/initialStartup.mel line 179: Y-axis is already the Up-axis
+Warning: file: C:\Users\10545698\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 4: filePathEditor: Attribute 'aiImage.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\10545698\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 5: filePathEditor: Attribute 'aiStandIn.dso' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\10545698\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 6: filePathEditor: Attribute 'aiVolume.filename' is invalid or is not designated 'usedAsFilename'.
+AbcExport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Initialized VP2.0 renderer {
+  Version : 2016.11.35.12. Feature Level 5.
+  Adapter : GeForce GTX 1060 6GB/PCIe/SSE2
+  Vendor ID: 4318. Device ID : 7171
+  Driver : .
+  API : OpenGL V.4.6.
+  Max texture size : 16384 * 16384.
+  Max tex coords : 32
+  Shader versions supported (Vertex: 5, Geometry: 5, Pixel 5).
+  Shader compiler profile : (Best card profile)
+  Active stereo support available : 0
+  GPU Memory Limit : 6144 MB.
+  CPU Memory Limit: 31028.6 MB.
+}
+OpenCL evaluator is attempting to initialize OpenCL.
+Detected 1 OpenCL Platforms: 
+ 0: NVIDIA Corporation. NVIDIA CUDA. OpenCL 1.2 CUDA 9.2.156.
+ Supported extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer
+OpenCL evaluator choosing OpenCL platform NVIDIA Corporation.
+OpenCL evaluator is unable to find a GPU device that can share VBOs with OpenGL.
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/autoLoadPlugin.mel line 35: Loading plug-in "lookdevKit" has resulted in changes to the scene that may need to be saved.
+Warning: line 1: filePathEditor: Attribute 'aiStandIn.dso' and label 'Standin' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiVolume.filename' and label 'VDB' have been saved already.
+00:00:00   518MB WARNING |  node "MayaMultiplyDivide" is already installed
+00:00:00   518MB WARNING |  node "MayaClamp" is already installed
+00:00:00   518MB WARNING |  node "MayaGammaCorrect" is already installed
+00:00:00   518MB WARNING |  node "MayaCondition" is already installed
+00:00:00   518MB WARNING |  node "MayaReverse" is already installed
+Warning: line 1: filePathEditor: Attribute 'aiImage.filename' and label 'Image' have been saved already.
+Successfully imported python module 'arnold'
+Successfully imported python module 'mtoa'
+Maya 2018 importing module pymel 1.0.10 (C:\Program Files\Autodesk\Maya2018\Python\lib\site-packages\pymel\__init__.py)
+Successfully registered renderer 'arnold'
+AbcImport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Warning: Plug-in, "AbcExport.mll", is already loaded.  Skipped.
+Warning: Plug-in, "mtoa.mll", is already loaded.  Skipped.
+hlp = xgenm.xmaya.xgmArchiveExport.xgmArchiveExport()
+hlp.processDir( 'Wheet', 'C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/', ['C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/Den.ma'], ['|grass:wheet'], 0, '0.0', '0.0', 1.000000, 1.000000 )
+[  0.00%] creating sub directoriesC:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/
+[  0.00%]  processing file C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/Den.ma
+[  0.00%]   processing scene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/Wheet
+[  0.00%]    openScene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/Den.ma
+File read in  0.23 seconds.
+File read in  0.23 seconds.
+Importing XGen Collections...
+Done.
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 627: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 590: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+[  0.00%]    fixNodeToShapeParent objs - ['|grass:wheet']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[ 25.00%]    processScene 1 [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[ 25.00%]    processScene 2 [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[  0.00%]     splitByShadingGroups [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder1
+[  0.00%]     getSGsFromObj( |grass:wheet|grass:pCylinder1 ) returned [u'grass:lambert2SG']
+[ 27.27%]     getSGsFromObj |grass:wheet|grass:pCylinder2
+[ 27.27%]     getSGsFromObj( |grass:wheet|grass:pCylinder2 ) returned [u'grass:lambert2SG']
+[ 26.14%]     getSGsFromObj |grass:wheet|grass:pCylinder3
+[ 26.14%]     getSGsFromObj( |grass:wheet|grass:pCylinder3 ) returned [u'grass:lambert2SG']
+[ 25.76%]     getSGsFromObj |grass:wheet|grass:pCylinder4
+[ 25.76%]     getSGsFromObj( |grass:wheet|grass:pCylinder4 ) returned [u'grass:lambert2SG']
+[ 25.57%]     getSGsFromObj |grass:wheet|grass:pCylinder5
+[ 25.57%]     getSGsFromObj( |grass:wheet|grass:pCylinder5 ) returned [u'grass:lambert2SG']
+[ 25.45%]     getSGsFromObj |grass:wheet|grass:pCylinder6
+[ 25.45%]     getSGsFromObj( |grass:wheet|grass:pCylinder6 ) returned [u'grass:lambert2SG']
+[ 25.38%]     getSGsFromObj |grass:wheet|grass:pCylinder7
+[ 25.38%]     getSGsFromObj( |grass:wheet|grass:pCylinder7 ) returned [u'grass:lambert2SG']
+[ 25.32%]     getSGsFromObj |grass:wheet|grass:pCylinder8
+[ 25.32%]     getSGsFromObj( |grass:wheet|grass:pCylinder8 ) returned [u'grass:lambert2SG']
+[ 25.28%]     getSGsFromObj |grass:wheet|grass:pCylinder9
+[ 25.28%]     getSGsFromObj( |grass:wheet|grass:pCylinder9 ) returned [u'grass:lambert2SG']
+[ 25.25%]     getSGsFromObj |grass:wheet|grass:pCylinder10
+[ 25.25%]     getSGsFromObj( |grass:wheet|grass:pCylinder10 ) returned [u'grass:lambert2SG']
+[ 25.23%]     getSGsFromObj |grass:wheet|grass:pCylinder11
+[ 25.23%]     getSGsFromObj( |grass:wheet|grass:pCylinder11 ) returned [u'grass:lambert2SG']
+[ 12.50%]    processScene [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[ 12.50%]    before archiveExport [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[  0.00%]     archiveExport alembic object: [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[  0.00%]     abcExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/Wheet.abc
+[  0.00%]     abcExport objects [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder1|grass:pCylinderShape1']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder2|grass:pCylinderShape2', u'|grass:wheet|grass:pCylinder2|grass:polySurfaceShape2']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder3|grass:pCylinderShape3', u'|grass:wheet|grass:pCylinder3|grass:polySurfaceShape3']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder4|grass:pCylinderShape4', u'|grass:wheet|grass:pCylinder4|grass:polySurfaceShape4']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder5|grass:pCylinderShape5', u'|grass:wheet|grass:pCylinder5|grass:polySurfaceShape5']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder6|grass:pCylinderShape6', u'|grass:wheet|grass:pCylinder6|grass:polySurfaceShape1']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder7|grass:pCylinderShape7', u'|grass:wheet|grass:pCylinder7|grass:polySurfaceShape1', u'|grass:wheet|grass:pCylinder7|grass:polySurfaceShape6']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder8|grass:pCylinderShape8', u'|grass:wheet|grass:pCylinder8|grass:polySurfaceShape1', u'|grass:wheet|grass:pCylinder8|grass:polySurfaceShape7']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder9|grass:pCylinderShape9', u'|grass:wheet|grass:pCylinder9|grass:polySurfaceShape1', u'|grass:wheet|grass:pCylinder9|grass:polySurfaceShape8']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder10|grass:pCylinderShape10', u'|grass:wheet|grass:pCylinder10|grass:polySurfaceShape1', u'|grass:wheet|grass:pCylinder10|grass:polySurfaceShape9']
+[  0.00%]     abcExport select objects [u'|grass:wheet|grass:pCylinder11|grass:pCylinderShape11', u'|grass:wheet|grass:pCylinder11|grass:polySurfaceShape1', u'|grass:wheet|grass:pCylinder11|grass:polySurfaceShape10']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/Wheet.abc"
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder1
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder2
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder3
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder4
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder5
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder6
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder7
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder8
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder9
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder10
+[  0.00%]     getSGsFromObj |grass:wheet|grass:pCylinder11
+[ 25.00%]     archiveExport for callbacks
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder1.ass.gz
+[  0.00%]      getSGsFromObj |grass:wheet|grass:pCylinder1
+[ 26.14%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder2.ass.gz
+[ 26.14%]      getSGsFromObj |grass:wheet|grass:pCylinder2
+[ 25.57%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder3.ass.gz
+[ 25.57%]      getSGsFromObj |grass:wheet|grass:pCylinder3
+[ 25.38%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder4.ass.gz
+[ 25.38%]      getSGsFromObj |grass:wheet|grass:pCylinder4
+[ 25.28%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder5.ass.gz
+[ 25.28%]      getSGsFromObj |grass:wheet|grass:pCylinder5
+[ 25.23%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder6.ass.gz
+[ 25.23%]      getSGsFromObj |grass:wheet|grass:pCylinder6
+[ 25.19%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder7.ass.gz
+[ 25.19%]      getSGsFromObj |grass:wheet|grass:pCylinder7
+[ 25.16%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder8.ass.gz
+[ 25.16%]      getSGsFromObj |grass:wheet|grass:pCylinder8
+[ 25.14%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder9.ass.gz
+[ 25.14%]      getSGsFromObj |grass:wheet|grass:pCylinder9
+[ 25.13%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder10.ass.gz
+[ 25.13%]      getSGsFromObj |grass:wheet|grass:pCylinder10
+[ 25.11%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/Wheet__grass_wheet_grass_pCylinder11.ass.gz
+[ 25.11%]      getSGsFromObj |grass:wheet|grass:pCylinder11
+[ 25.00%]     archiveExport for callbacks finished
+[  8.33%]    before materialExport [u'|grass:wheet|grass:pCylinder1', u'|grass:wheet|grass:pCylinder2', u'|grass:wheet|grass:pCylinder3', u'|grass:wheet|grass:pCylinder4', u'|grass:wheet|grass:pCylinder5', u'|grass:wheet|grass:pCylinder6', u'|grass:wheet|grass:pCylinder7', u'|grass:wheet|grass:pCylinder8', u'|grass:wheet|grass:pCylinder9', u'|grass:wheet|grass:pCylinder10', u'|grass:wheet|grass:pCylinder11']
+[  8.33%]    materialExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/materials/Wheet.ma
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder1
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder2
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder3
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder4
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder5
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder6
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder7
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder8
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder9
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder10
+[  8.33%]    getSGsFromObj |grass:wheet|grass:pCylinder11
+[100.00%]  done in 1.451 sec C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 878: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'deleteAll'

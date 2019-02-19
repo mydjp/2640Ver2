@@ -1,0 +1,8 @@
+#ArchiveGroup 0 name="test" description="No description." thumbnail="test.png" materials="${PROJECT}/xgen/archives/materials/test.ma" color=[1,0,0]
+0 "${PROJECT}/xgen/archives/abc/test.abc" material=test:initialShadingGroup objects=|pCube1
+3 "${PROJECT}/xgen/archives/ass/test__pCube1.ass.gz" material=test:initialShadingGroup objects=|pCube1
+1 "${PROJECT}/xgen/archives/abc/test_med.abc" material=test:initialShadingGroup objects=|pCube1
+4 "${PROJECT}/xgen/archives/ass/test__pCube1_med.ass.gz" material=test:initialShadingGroup objects=|pCube1
+2 "${PROJECT}/xgen/archives/abc/test_lo.abc" material=test:initialShadingGroup objects=|pCube1
+5 "${PROJECT}/xgen/archives/ass/test__pCube1_lo.ass.gz" material=test:initialShadingGroup objects=|pCube1
+

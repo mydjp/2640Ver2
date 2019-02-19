@@ -1,0 +1,166 @@
+pymel.core : INFO : Updating pymel with pre-loaded plugins: renderSetup
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/initialStartup.mel line 179: Y-axis is already the Up-axis
+Warning: file: C:\Users\mydjp\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 4: filePathEditor: Attribute 'aiImage.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\mydjp\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 5: filePathEditor: Attribute 'aiStandIn.dso' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\mydjp\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 6: filePathEditor: Attribute 'aiVolume.filename' is invalid or is not designated 'usedAsFilename'.
+AbcExport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Initialized VP2.0 renderer {
+  Version : 2016.11.35.12. Feature Level 5.
+  Adapter : GeForce GTX 1080 Ti/PCIe/SSE2
+  Vendor ID: 4318. Device ID : 6918
+  Driver : .
+  API : OpenGL V.4.6.
+  Max texture size : 16384 * 16384.
+  Max tex coords : 32
+  Shader versions supported (Vertex: 5, Geometry: 5, Pixel 5).
+  Shader compiler profile : (Best card profile)
+  Active stereo support available : 0
+  GPU Memory Limit : 11264 MB.
+  CPU Memory Limit: 46643.8 MB.
+}
+OpenCL evaluator is attempting to initialize OpenCL.
+Detected 1 OpenCL Platforms: 
+ 0: NVIDIA Corporation. NVIDIA CUDA. OpenCL 1.2 CUDA 9.1.84.
+ Supported extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer
+OpenCL evaluator choosing OpenCL platform NVIDIA Corporation.
+OpenCL evaluator is unable to find a GPU device that can share VBOs with OpenGL.
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/autoLoadPlugin.mel line 35: Loading plug-in "lookdevKit" has resulted in changes to the scene that may need to be saved.
+Warning: line 1: filePathEditor: Attribute 'aiStandIn.dso' and label 'Standin' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiVolume.filename' and label 'VDB' have been saved already.
+00:00:00   516MB WARNING |  node "MayaMultiplyDivide" is already installed
+00:00:00   516MB WARNING |  node "MayaClamp" is already installed
+00:00:00   516MB WARNING |  node "MayaGammaCorrect" is already installed
+00:00:00   516MB WARNING |  node "MayaCondition" is already installed
+00:00:00   516MB WARNING |  node "MayaReverse" is already installed
+Warning: line 1: filePathEditor: Attribute 'aiImage.filename' and label 'Image' have been saved already.
+Successfully imported python module 'arnold'
+Successfully imported python module 'mtoa'
+Maya 2018 importing module pymel 1.0.10 (C:\Program Files\Autodesk\Maya2018\Python\lib\site-packages\pymel\__init__.pyc)
+Successfully registered renderer 'arnold'
+AbcImport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Warning: Plug-in, "AbcExport.mll", is already loaded.  Skipped.
+Warning: Plug-in, "mtoa.mll", is already loaded.  Skipped.
+hlp = xgenm.xmaya.xgmArchiveExport.xgmArchiveExport()
+hlp.processDir( 'grasstwo', 'C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/', ['C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/scenes/grassone.ma'], ['|grass:group2'], 0, '0.0', '0.0', 1.000000, 1.000000 )
+[  0.00%] creating sub directoriesC:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/
+[  0.00%]  processing file C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/scenes/grassone.ma
+[  0.00%]   processing scene C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/grasstwo
+[  0.00%]    openScene C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/scenes/grassone.ma
+File read in  0.05 seconds.
+File read in  0.05 seconds.
+Importing XGen Collections...
+Done.
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 627: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+Error: XGen:  Failed to find grass.png 
+Error: XGen:  Searched path includes:
+                 C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/collections/grassone/grass.png (Part of path doesn't exist)
+                 C:/Users/mydjp/Documents/xgen/grass.png (Part of path doesn't exist)
+                 C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/presets/grass.png (Part of path doesn't exist) 
+Error: XGen:  Failed to find grass.png 
+Error: XGen:  Searched path includes:
+                 C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/collections/grassone/grass.png (Part of path doesn't exist)
+                 C:/Users/mydjp/Documents/xgen/grass.png (Part of path doesn't exist)
+                 C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/presets/grass.png (Part of path doesn't exist) 
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 590: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+[  0.00%]    fixNodeToShapeParent objs - ['|grass:group2']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[ 25.00%]    processScene 1 [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[ 25.00%]    processScene 2 [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[  0.00%]     splitByShadingGroups [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass22
+[  0.00%]     getSGsFromObj( |grass:group2|grass:grass22 ) returned [u'lambert3SG']
+[ 27.08%]     getSGsFromObj |grass:group2|grass:grass21
+[ 27.08%]     getSGsFromObj( |grass:group2|grass:grass21 ) returned [u'lambert3SG']
+[ 26.04%]     getSGsFromObj |grass:group2|grass:grass20
+[ 26.04%]     getSGsFromObj( |grass:group2|grass:grass20 ) returned [u'lambert3SG']
+[ 25.69%]     getSGsFromObj |grass:group2|grass:grass19
+[ 25.69%]     getSGsFromObj( |grass:group2|grass:grass19 ) returned [u'lambert3SG']
+[ 25.52%]     getSGsFromObj |grass:group2|grass:grass18
+[ 25.52%]     getSGsFromObj( |grass:group2|grass:grass18 ) returned [u'lambert3SG']
+[ 25.42%]     getSGsFromObj |grass:group2|grass:grass17
+[ 25.42%]     getSGsFromObj( |grass:group2|grass:grass17 ) returned [u'lambert3SG']
+[ 25.35%]     getSGsFromObj |grass:group2|grass:grass16
+[ 25.35%]     getSGsFromObj( |grass:group2|grass:grass16 ) returned [u'lambert3SG']
+[ 25.30%]     getSGsFromObj |grass:group2|grass:grass15
+[ 25.30%]     getSGsFromObj( |grass:group2|grass:grass15 ) returned [u'lambert3SG']
+[ 25.26%]     getSGsFromObj |grass:group2|grass:grass14
+[ 25.26%]     getSGsFromObj( |grass:group2|grass:grass14 ) returned [u'lambert3SG']
+[ 25.23%]     getSGsFromObj |grass:group2|grass:grass13
+[ 25.23%]     getSGsFromObj( |grass:group2|grass:grass13 ) returned [u'lambert3SG']
+[ 25.21%]     getSGsFromObj |grass:group2|grass:grass12
+[ 25.21%]     getSGsFromObj( |grass:group2|grass:grass12 ) returned [u'lambert3SG']
+[ 25.19%]     getSGsFromObj |grass:group2|grass:grass11
+[ 25.19%]     getSGsFromObj( |grass:group2|grass:grass11 ) returned [u'lambert3SG']
+[ 12.50%]    processScene [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[ 12.50%]    before archiveExport [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[  0.00%]     archiveExport alembic object: [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[  0.00%]     abcExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/abc/grasstwo.abc
+[  0.00%]     abcExport objects [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass22|grass:grassShape22']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass21|grass:grassShape21']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass20|grass:grassShape20']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass19|grass:grassShape19']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass18|grass:grassShape18']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass17|grass:grassShape17']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass16|grass:grassShape16']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass15|grass:grassShape15']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass14|grass:grassShape14']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass13|grass:grassShape13']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass12|grass:grassShape12']
+[  0.00%]     abcExport select objects [u'|grass:group2|grass:grass11|grass:grassShape11']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/abc/grasstwo.abc"
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass22
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass21
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass20
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass19
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass18
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass17
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass16
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass15
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass14
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass13
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass12
+[  0.00%]     getSGsFromObj |grass:group2|grass:grass11
+[ 25.00%]     archiveExport for callbacks
+[  0.00%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo
+[  0.00%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass22.ass.gz
+[  0.00%]      getSGsFromObj |grass:group2|grass:grass22
+[ 26.04%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass21.ass.gz
+[ 26.04%]      getSGsFromObj |grass:group2|grass:grass21
+[ 25.52%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass20.ass.gz
+[ 25.52%]      getSGsFromObj |grass:group2|grass:grass20
+[ 25.35%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass19.ass.gz
+[ 25.35%]      getSGsFromObj |grass:group2|grass:grass19
+[ 25.26%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass18.ass.gz
+[ 25.26%]      getSGsFromObj |grass:group2|grass:grass18
+[ 25.21%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass17.ass.gz
+[ 25.21%]      getSGsFromObj |grass:group2|grass:grass17
+[ 25.17%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass16.ass.gz
+[ 25.17%]      getSGsFromObj |grass:group2|grass:grass16
+[ 25.15%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass15.ass.gz
+[ 25.15%]      getSGsFromObj |grass:group2|grass:grass15
+[ 25.13%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass14.ass.gz
+[ 25.13%]      getSGsFromObj |grass:group2|grass:grass14
+[ 25.12%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass13.ass.gz
+[ 25.12%]      getSGsFromObj |grass:group2|grass:grass13
+[ 25.10%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass12.ass.gz
+[ 25.10%]      getSGsFromObj |grass:group2|grass:grass12
+[ 25.09%]      assExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/ass/grasstwo__grass_group2_grass_grass11.ass.gz
+[ 25.09%]      getSGsFromObj |grass:group2|grass:grass11
+[ 25.00%]     archiveExport for callbacks finished
+[  8.33%]    before materialExport [u'|grass:group2|grass:grass22', u'|grass:group2|grass:grass21', u'|grass:group2|grass:grass20', u'|grass:group2|grass:grass19', u'|grass:group2|grass:grass18', u'|grass:group2|grass:grass17', u'|grass:group2|grass:grass16', u'|grass:group2|grass:grass15', u'|grass:group2|grass:grass14', u'|grass:group2|grass:grass13', u'|grass:group2|grass:grass12', u'|grass:group2|grass:grass11']
+[  8.33%]    materialExport C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/materials/grasstwo.ma
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass22
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass21
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass20
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass19
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass18
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass17
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass16
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass15
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass14
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass13
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass12
+[  8.33%]    getSGsFromObj |grass:group2|grass:grass11
+[100.00%]  done in 1.090 sec C:/Users/mydjp/Documents/gitrepo/2210Fall2018/Cheetah/xgen/archives/
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 878: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'deleteAll'

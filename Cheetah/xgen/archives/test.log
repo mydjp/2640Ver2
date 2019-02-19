@@ -1,0 +1,141 @@
+pymel.core : INFO : Updating pymel with pre-loaded plugins: renderSetup
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/initialStartup.mel line 179: Y-axis is already the Up-axis
+Warning: file: C:\Users\10545698\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 4: filePathEditor: Attribute 'aiImage.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\10545698\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 5: filePathEditor: Attribute 'aiStandIn.dso' is invalid or is not designated 'usedAsFilename'.
+Warning: file: C:\Users\10545698\Documents\maya\2018\prefs\filePathEditorRegistryPrefs.mel line 6: filePathEditor: Attribute 'aiVolume.filename' is invalid or is not designated 'usedAsFilename'.
+AbcExport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Initialized VP2.0 renderer {
+  Version : 2016.11.35.12. Feature Level 5.
+  Adapter : GeForce GTX 1060 6GB/PCIe/SSE2
+  Vendor ID: 4318. Device ID : 7171
+  Driver : .
+  API : OpenGL V.4.6.
+  Max texture size : 16384 * 16384.
+  Max tex coords : 32
+  Shader versions supported (Vertex: 5, Geometry: 5, Pixel 5).
+  Shader compiler profile : (Best card profile)
+  Active stereo support available : 0
+  GPU Memory Limit : 6144 MB.
+  CPU Memory Limit: 31028.6 MB.
+}
+OpenCL evaluator is attempting to initialize OpenCL.
+Detected 1 OpenCL Platforms: 
+ 0: NVIDIA Corporation. NVIDIA CUDA. OpenCL 1.2 CUDA 9.2.156.
+ Supported extensions: cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer
+OpenCL evaluator choosing OpenCL platform NVIDIA Corporation.
+OpenCL evaluator is unable to find a GPU device that can share VBOs with OpenGL.
+Warning: file: C:/Program Files/Autodesk/Maya2018/scripts/startup/autoLoadPlugin.mel line 35: Loading plug-in "lookdevKit" has resulted in changes to the scene that may need to be saved.
+Warning: line 1: filePathEditor: Attribute 'aiStandIn.dso' and label 'Standin' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiVolume.filename' and label 'VDB' have been saved already.
+00:00:00   517MB WARNING |  node "MayaMultiplyDivide" is already installed
+00:00:00   517MB WARNING |  node "MayaClamp" is already installed
+00:00:00   517MB WARNING |  node "MayaGammaCorrect" is already installed
+00:00:00   517MB WARNING |  node "MayaCondition" is already installed
+00:00:00   517MB WARNING |  node "MayaReverse" is already installed
+Warning: line 1: filePathEditor: Attribute 'aiImage.filename' and label 'Image' have been saved already.
+Successfully imported python module 'arnold'
+Successfully imported python module 'mtoa'
+Maya 2018 importing module pymel 1.0.10 (C:\Program Files\Autodesk\Maya2018\Python\lib\site-packages\pymel\__init__.py)
+Successfully registered renderer 'arnold'
+AbcImport v1.0 using Alembic 1.5.8 (built Jul 13 2016 18:28:45)
+Warning: Plug-in, "AbcExport.mll", is already loaded.  Skipped.
+Warning: Plug-in, "mtoa.mll", is already loaded.  Skipped.
+hlp = xgenm.xmaya.xgmArchiveExport.xgmArchiveExport()
+hlp.processDir( 'test', 'C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/', ['C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/test.ma'], ['|pCube1'], 1, '80.0', '30.0', 1.000000, 1.000000 )
+[  0.00%] creating sub directoriesC:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/
+[  0.00%]  processing file C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/test.ma
+[  0.00%]   processing scene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/test
+[  0.00%]    openScene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/test.ma
+File read in  0.11 seconds.
+File read in  0.11 seconds.
+Importing XGen Collections...
+Done.
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 627: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 590: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+[  0.00%]    fixNodeToShapeParent objs - ['|pCube1']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - ['|pCube1']
+[  8.33%]    processScene 1 ['|pCube1']
+[  8.33%]    processScene 2 ['|pCube1']
+[  0.00%]     splitByShadingGroups ['|pCube1']
+[  0.00%]     getSGsFromObj |pCube1
+[  0.00%]     getSGsFromObj( |pCube1 ) returned [u'initialShadingGroup']
+[  4.17%]    processScene ['|pCube1']
+[  4.17%]    before archiveExport ['|pCube1']
+[  0.00%]     archiveExport alembic object: ['|pCube1']
+[  0.00%]     abcExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/test.abc
+[  0.00%]     abcExport objects ['|pCube1']
+[  0.00%]     abcExport select objects [u'|pCube1|pCubeShape1']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/test.abc"
+[  0.00%]     getSGsFromObj |pCube1
+[  8.33%]     archiveExport for callbacks
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/test
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/test__pCube1.ass.gz
+[  0.00%]      getSGsFromObj |pCube1
+[  8.33%]     archiveExport for callbacks finished
+[  2.78%]    before materialExport ['|pCube1']
+[  2.78%]    materialExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/materials/test.ma
+[  2.78%]    getSGsFromObj |pCube1
+[ 33.33%]   processing scene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/test_med
+[  0.00%]    openScene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/test.ma
+File read in  0.023 seconds.
+File read in  0.023 seconds.
+Importing XGen Collections...
+Done.
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 627: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+Error: XGen:  Tried to import a duplicate collection, test, from file test__test.xgen. Aborting import. 
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 590: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+[  0.00%]    fixNodeToShapeParent objs - ['|pCube1']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - ['|pCube1']
+[ 44.44%]    processScene 1 ['|pCube1']
+[  0.00%]     polyReduce 30.0 |pCube1
+Warning: History will be on for the command since a selected item has history.
+[ 44.44%]    processScene 2 ['|pCube1']
+[  0.00%]     splitByShadingGroups ['|pCube1']
+[  0.00%]     getSGsFromObj |pCube1
+[  0.00%]     getSGsFromObj( |pCube1 ) returned [u'initialShadingGroup']
+[ 38.89%]    processScene ['|pCube1']
+[ 38.89%]    before archiveExport ['|pCube1']
+[  0.00%]     archiveExport alembic object: ['|pCube1']
+[  0.00%]     abcExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/test_med.abc
+[  0.00%]     abcExport objects ['|pCube1']
+[  0.00%]     abcExport select objects [u'|pCube1|pCubeShape1']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/test_med.abc"
+[  0.00%]     getSGsFromObj |pCube1
+[ 44.44%]     archiveExport for callbacks
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/test_med
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/test__pCube1_med.ass.gz
+[  0.00%]      getSGsFromObj |pCube1
+[ 44.44%]     archiveExport for callbacks finished
+[ 16.67%]   processing scene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/test_lo
+[  0.00%]    openScene C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/scenes/test.ma
+File read in  0.024 seconds.
+File read in  0.024 seconds.
+Importing XGen Collections...
+Done.
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 627: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+Error: XGen:  Tried to import a duplicate collection, test, from file test__test.xgen. Aborting import. 
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 590: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'tracking'
+[  0.00%]    fixNodeToShapeParent objs - ['|pCube1']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - ['|pCube1']
+[ 27.78%]    processScene 1 ['|pCube1']
+[  0.00%]     polyReduce 80.0 |pCube1
+Warning: History will be on for the command since a selected item has history.
+[ 27.78%]    processScene 2 ['|pCube1']
+[  0.00%]     splitByShadingGroups ['|pCube1']
+[  0.00%]     getSGsFromObj |pCube1
+[  0.00%]     getSGsFromObj( |pCube1 ) returned [u'initialShadingGroup']
+[ 22.22%]    processScene ['|pCube1']
+[ 22.22%]    before archiveExport ['|pCube1']
+[  0.00%]     archiveExport alembic object: ['|pCube1']
+[  0.00%]     abcExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/test_lo.abc
+[  0.00%]     abcExport objects ['|pCube1']
+[  0.00%]     abcExport select objects [u'|pCube1|pCubeShape1']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/abc/test_lo.abc"
+[  0.00%]     getSGsFromObj |pCube1
+[ 27.78%]     archiveExport for callbacks
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/test_lo
+[  0.00%]      assExport C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/ass/test__pCube1_lo.ass.gz
+[  0.00%]      getSGsFromObj |pCube1
+[ 27.78%]     archiveExport for callbacks finished
+[100.00%]  done in 0.667 sec C:/Users/10545698/Documents/GitRepos/2210Fall2018/Cheetah/xgen/archives/
+Error: file: C:/Program Files/Autodesk/Maya2018/plug-ins/xgen/scripts/xgen.mel line 878: AttributeError: file <maya console> line 1: 'NoneType' object has no attribute 'deleteAll'

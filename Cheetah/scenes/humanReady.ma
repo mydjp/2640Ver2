@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: human.ma
-//Last modified: Sat, Apr 13, 2019 10:29:30 AM
+//Name: humanReady.ma
+//Last modified: Sat, Apr 13, 2019 10:29:56 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "3C878A16-7543-7D86-1DCE-3EAAE647F5BA";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -7.8067716641387364 33.814190867797322 23.946994483798271 ;
-	setAttr ".r" -type "double3" -14.138352731034272 -1445.7999999998706 359.99999999885716 ;
+	setAttr ".t" -type "double3" 3.6617534715686197 39.000195157390181 36.418592442689345 ;
+	setAttr ".r" -type "double3" -16.538352731395658 -1427.799999999869 359.99999999883636 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "52AE4400-F64B-F0CE-C35C-B9923F5AFC70";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 28.612633246578067;
+	setAttr ".coi" 42.770918291004271;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -27517,4 +27517,4 @@ connectAttr "GenericMesh_V10_1:GenMeshDemistified2:pCubeShape13.iog" ":initialSh
 		 -na;
 connectAttr "polySurfaceShape10.iog.og[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId10.msg" ":initialShadingGroup.gn" -na;
-// End of human.ma
+// End of humanReady.ma
